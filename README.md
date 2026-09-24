@@ -40,8 +40,10 @@ Experimental findings show that the PCA-ICA-LSTM model consistently outperforms 
 ├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation
 
+
 ⚙️Core Dependencies
 
+```text
 Python >= 3.8
 TensorFlow >= 2.10
 scikit-learn

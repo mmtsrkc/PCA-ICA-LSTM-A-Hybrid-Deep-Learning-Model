@@ -28,3 +28,51 @@ Sequential / Temporal Modeling:
 Long Short-Term Memory (LSTM): Captures temporal dependencies and long-term sequential relationships using the distilled, low-dimensional feature space.
 
 Experimental findings show that the PCA-ICA-LSTM model consistently outperforms benchmark deep neural networks (SimpleRNN, GRU, CNN and standard LSTM) across both high-dimensional and compressed feature spaces, demonstrating superior noise robustness and improved forecasting accuracy on the S&P 500 index.
+
+
+📂 Repository Structure
+├── models/
+│   └── pca_ica_lstm.py       # Hybrid PCA-ICA-LSTM model
+├── requirements.txt          # Project dependencies
+└── README.md
+
+
+⚙️Core Dependencies
+
+Python >= 3.8
+TensorFlow >= 2.10
+scikit-learn
+pandas
+numpy
+matplotlib
+
+
+📊 Evaluation Metrics
+
+Model forecasting accuracy and financial performance are evaluated using the following statistical and economic metrics:
+
+* Coefficient of Determination (**R²**)
+* Mean Squared Error (**MSE**)
+* Mean Absolute Error (**MAE**)
+* Mean Absolute Percentage Error (**MAPE**)
+* Maximum Residual Error (**Max Error**)
+* Cumulative / Investment Return Ratio (**Return Ratio**)
+
+
+📄 Citation
+If you find this research or codebase helpful, please cite the original article:
+
+@article{sarikoc2025pca,
+  title={PCA-ICA-LSTM: A Hybrid Deep Learning Model Based on Dimension Reduction Methods to Predict S\&P 500 Index Price},
+  author={Sar{\i}ko{\c{c}}, M. and Celik, M.},
+  journal={Computational Economics},
+  volume={65},
+  pages={2249--2315},
+  year={2025},
+  publisher={Springer},
+  doi={10.1007/s10614-024-10629-x}
+}
+
+
+📝 License
+This project is licensed under the MIT License.

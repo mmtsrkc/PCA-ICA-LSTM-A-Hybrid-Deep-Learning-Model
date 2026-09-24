@@ -30,12 +30,14 @@ Long Short-Term Memory (LSTM): Captures temporal dependencies and long-term sequ
 Experimental findings show that the PCA-ICA-LSTM model consistently outperforms benchmark deep neural networks (SimpleRNN, GRU, CNN and standard LSTM) across both high-dimensional and compressed feature spaces, demonstrating superior noise robustness and improved forecasting accuracy on the S&P 500 index.
 
 
-📂 Repository Structure
+## 📂 Repository Structure
+
+```text
+.
 ├── models/
 │   └── pca_ica_lstm.py       # Hybrid PCA-ICA-LSTM model
 ├── requirements.txt          # Project dependencies
-└── README.md
-
+└── README.md                 # Project documentation
 
 ⚙️Core Dependencies
 

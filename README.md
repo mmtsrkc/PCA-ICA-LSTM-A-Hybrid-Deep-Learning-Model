@@ -13,8 +13,9 @@ This repository contains the Python/TensorFlow implementation of the hybrid **PC
 > **DOI:** https://doi.org/10.1007/s10614-024-10629-x
 
 
-#📌 Overview
+## 📌 Overview
 
+```text
 Financial time series data are non-linear, non-stationary, and prone to high dimensionality and multicollinearity. This study introduces the PCA-ICA-LSTM architecture, a two-stage hybrid framework combining statistical dimensionality reduction techniques with deep recurrent neural networks:
 
 Dimensionality Reduction and Denoising:
@@ -41,6 +42,7 @@ Experimental findings show that the PCA-ICA-LSTM model consistently outperforms 
 
 ⚙️Core Dependencies
 
+```text
 Python >= 3.8
 TensorFlow >= 2.10
 scikit-learn
@@ -51,6 +53,7 @@ matplotlib
 
 # 📊 Evaluation Metrics
 
+```text
 Model forecasting accuracy and financial performance are evaluated using the following statistical and economic metrics:
 
 * Coefficient of Determination (**R²**)
@@ -62,8 +65,8 @@ Model forecasting accuracy and financial performance are evaluated using the fol
 
 
 # 📄 Citation
+```text
 If you find this research or codebase helpful, please cite the original article:
-
 @article{sarikoc2025pca,
   title={PCA-ICA-LSTM: A Hybrid Deep Learning Model Based on Dimension Reduction Methods to Predict S\&P 500 Index Price},
   author={Sar{\i}ko{\c{c}}, M. and Celik, M.},
@@ -77,4 +80,5 @@ If you find this research or codebase helpful, please cite the original article:
 
 
 # 📝 License
+```text
 This project is licensed under the MIT License.

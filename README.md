@@ -32,6 +32,7 @@ Experimental findings show that the PCA-ICA-LSTM model consistently outperforms 
 
 ## 📂 Repository Structure
 
+```text
 .
 ├── models/
 │   └── pca_ica_lstm.py       # Hybrid PCA-ICA-LSTM model

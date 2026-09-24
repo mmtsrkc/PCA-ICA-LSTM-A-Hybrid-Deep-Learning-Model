@@ -15,7 +15,7 @@ This repository contains the Python/TensorFlow implementation of the hybrid **PC
 
 ## 📌 Overview
 
-```text
+
 Financial time series data are non-linear, non-stationary, and prone to high dimensionality and multicollinearity. This study introduces the PCA-ICA-LSTM architecture, a two-stage hybrid framework combining statistical dimensionality reduction techniques with deep recurrent neural networks:
 
 Dimensionality Reduction and Denoising:
@@ -31,9 +31,9 @@ Long Short-Term Memory (LSTM): Captures temporal dependencies and long-term sequ
 Experimental findings show that the PCA-ICA-LSTM model consistently outperforms benchmark deep neural networks (SimpleRNN, GRU, CNN and standard LSTM) across both high-dimensional and compressed feature spaces, demonstrating superior noise robustness and improved forecasting accuracy on the S&P 500 index.
 
 
-## 📂 Repository Structure
+📂 Repository Structure
 
-```text
+```monospace
 .
 ├── models/
 │   └── pca_ica_lstm.py       # Hybrid PCA-ICA-LSTM model
@@ -42,7 +42,6 @@ Experimental findings show that the PCA-ICA-LSTM model consistently outperforms 
 
 ⚙️Core Dependencies
 
-```text
 Python >= 3.8
 TensorFlow >= 2.10
 scikit-learn
@@ -51,9 +50,9 @@ numpy
 matplotlib
 
 
-# 📊 Evaluation Metrics
+📊 Evaluation Metrics
 
-```text
+
 Model forecasting accuracy and financial performance are evaluated using the following statistical and economic metrics:
 
 * Coefficient of Determination (**R²**)
@@ -64,9 +63,10 @@ Model forecasting accuracy and financial performance are evaluated using the fol
 * Cumulative / Investment Return Ratio (**Return Ratio**)
 
 
-# 📄 Citation
-```text
+📄 Citation
+
 If you find this research or codebase helpful, please cite the original article:
+
 @article{sarikoc2025pca,
   title={PCA-ICA-LSTM: A Hybrid Deep Learning Model Based on Dimension Reduction Methods to Predict S\&P 500 Index Price},
   author={Sar{\i}ko{\c{c}}, M. and Celik, M.},
@@ -79,6 +79,6 @@ If you find this research or codebase helpful, please cite the original article:
 }
 
 
-# 📝 License
-```text
+📝 License
+
 This project is licensed under the MIT License.
